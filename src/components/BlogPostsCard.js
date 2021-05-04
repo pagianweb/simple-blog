@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Col } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody, CardTitle, Col } from 'reactstrap';
 import parse from 'html-react-parser';
 
 const BlogPostsCard = (props) => {
