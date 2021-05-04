@@ -1,0 +1,16 @@
+.header-image {
+    width: 100vw
+}
+.single-post img {
+    max-width: 100%;
+}
+.card-link {
+    transition: all .3s ease-in-out;
+}
+.card-link:hover {
+    text-decoration: none;
+}
+.card-link:hover .card-body {
+    background-color: #f1f1f1;
+    transition: all .3s ease;
+}
