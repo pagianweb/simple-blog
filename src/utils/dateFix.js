@@ -8,6 +8,6 @@ function appendLeadingZeroes(n){
 export default function dateFix(oldDate) {
     let date = new Date(oldDate);
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    return `${monthNames[date.getMonth() + 1]} ${appendLeadingZeroes(date.getDate())}, ${date.getFullYear()}`;
+    return `${monthNames[date.getMonth()]} ${appendLeadingZeroes(date.getDate())}, ${date.getFullYear()}`;
     
 }

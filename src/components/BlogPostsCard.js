@@ -10,7 +10,6 @@ const BlogPostsCard = (props) => {
                 <CardImg top width="100%" src={props.post._embedded['wp:featuredmedia']['0'].media_details.sizes.medium_large.source_url} alt={props.post.title.rendered} />
                 <CardBody>
                     <CardTitle tag="h5">{props.post.title.rendered}</CardTitle>
-                    <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
                     <CardText>{parse(props.post.excerpt.rendered.replace(/(<([^>]+)>)/gi, "").split(" ").splice(0, 50).join(" "))}</CardText>
                 </CardBody>
             </Link>
